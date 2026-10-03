@@ -1,0 +1,24 @@
+# 运行时/凭据/缓存 —— 绝不入库
+__pycache__/
+*.py[cod]
+*.log
+cookies*.txt
+credentials.json
+api_keys.json
+settings.json
+audit_cache.json
+tasks.json
+works.json
+answers/
+
+# 打包产物
+dist/
+build/
+*.zip
+*.spec
+
+# 本地环境
+.venv/
+venv/
+.vscode/
+.idea/

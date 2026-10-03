@@ -1,0 +1,51 @@
+{
+ "work_ref": {
+  "courseId": "10000001",
+  "classId": "20000002",
+  "cpi": "30000003",
+  "workId": "40000004",
+  "answerId": "50000005"
+ },
+ "backend": "your-model",
+ "results": {
+  "60000001": {
+   "type": "single",
+   "answer": "B",
+   "confidence": 0.8,
+   "source": "your-model",
+   "status": "ok"
+  },
+  "60000002": {
+   "type": "multi",
+   "answer": "AC",
+   "confidence": 0.8,
+   "source": "your-model",
+   "status": "ok"
+  },
+  "60000003": {
+   "type": "judge",
+   "answer": "B",
+   "confidence": 0.8,
+   "source": "your-model",
+   "status": "ok"
+  },
+  "60000004": {
+   "type": "blank",
+   "answer": [
+    "3/2"
+   ],
+   "confidence": 0.6,
+   "source": "your-model",
+   "status": "ok"
+  },
+  "60000005": {
+   "type": "subjective",
+   "answer": "Matrix multiplication multiplies rows by columns and sums the products.",
+   "confidence": 0.6,
+   "source": "your-model",
+   "status": "ok"
+  }
+ },
+ "ok": 5,
+ "total": 5
+}

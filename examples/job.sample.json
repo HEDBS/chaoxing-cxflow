@@ -1,0 +1,87 @@
+{
+ "work_ref": {
+  "courseId": "10000001",
+  "classId": "20000002",
+  "cpi": "30000003",
+  "workId": "40000004",
+  "answerId": "50000005"
+ },
+ "ctx": {
+  "form_action": "/mooc-ans/work/addStudentWorkNewWeb?_classId=20000002&courseid=10000001&token=SAMPLE",
+  "hidden": {
+   "jobid": "sample-jobid",
+   "totalQuestionNum": "5",
+   "pyFlag": "3",
+   "enc": "0123456789abcdef0123456789abcdef"
+  },
+  "standardEnc": "fedcba9876543210fedcba9876543210",
+  "limit_submit": 100
+ },
+ "questions": [
+  {
+   "qid": "60000001",
+   "type": "single",
+   "type_name": "单选题",
+   "stem": "sample: 1 + 1 = ?",
+   "options": {
+    "A": "1",
+    "B": "2"
+   },
+   "image_flag": false,
+   "img_urls": [],
+   "handwrite": false
+  },
+  {
+   "qid": "60000002",
+   "type": "multi",
+   "type_name": "多选题",
+   "stem": "sample: pick the even numbers",
+   "options": {
+    "A": "2",
+    "B": "3",
+    "C": "4"
+   },
+   "image_flag": false,
+   "img_urls": [],
+   "handwrite": false
+  },
+  {
+   "qid": "60000003",
+   "type": "judge",
+   "type_name": "判断题",
+   "stem": "sample: the earth is round",
+   "options": {
+    "A": "True",
+    "B": "False"
+   },
+   "judge_map": {
+    "A": "true",
+    "B": "false"
+   },
+   "image_flag": false,
+   "img_urls": [],
+   "handwrite": false
+  },
+  {
+   "qid": "60000004",
+   "type": "blank",
+   "type_name": "填空题",
+   "stem": "sample: 1/2 + 1 = ____",
+   "options": {},
+   "blank_count": 1,
+   "image_flag": false,
+   "img_urls": [],
+   "handwrite": false
+  },
+  {
+   "qid": "60000005",
+   "type": "subjective",
+   "type_name": "简答题",
+   "stem": "sample: explain matrix multiplication in one sentence",
+   "options": {},
+   "image_flag": false,
+   "img_urls": [],
+   "handwrite": false
+  }
+ ]
+}
